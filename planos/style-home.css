@@ -2,15 +2,16 @@ body {
     background-color: #eeeee4;
 }
 
+.total {
+    margin: 0 auto;
+    width: 60rem;
+}
+
 h1 {
     text-align: center;
     margin: 5rem 15rem 5rem;
     font-size: 3rem;
     transition: all 400ms;
-}
-
-h1:hover {
-    
 }
 
 .principal {
