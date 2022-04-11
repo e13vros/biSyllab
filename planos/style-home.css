@@ -1,0 +1,60 @@
+body {
+    background-color: #eeeee4;
+}
+
+.principal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.plano-basico {
+    padding: 1rem 1.5rem;
+    width: 25rem;
+    background-color: #eeeee4;
+    transition: all 1s ease-in-out;
+}
+
+.plano-basico:hover {
+    transform: scale(1.2);
+}
+
+.plano-premium {
+    padding: 1rem 1.5rem;
+    width: 25rem;
+    transition: all 1s ease-in-out;
+}
+
+.plano-premium:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    text-align: center;
+    margin: 5rem 15rem 13rem;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+    margin: 0 0 50px 0;
+}
+
+.plano-basico > ul li {
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.plano-basico > ul li::before {
+    content: "• ";
+}
+
+.plano-premium > ul li {
+    padding: 0 0 10px 0;
+    font-size: 1.5rem;
+}
+
+.plano-premium > ul li::before {
+    content: "• "
+}
