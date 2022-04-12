@@ -12,6 +12,13 @@ h1 {
     margin: 2rem 15rem 3rem;
     font-size: 3rem;
     transition: all 400ms;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.hoje {
+    font-style: italic;
 }
 
 .principal {
@@ -54,14 +61,16 @@ h1 {
 
 h2 {
     font-size: 3rem;
-    padding: 20px;
+    padding: 15px;
     margin: 0 0 50px 0;
     background-color: black;
     color: white;
     line-height: 40px;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .plano-basico > ul li {
+    font-family: 'Dosis', sans-serif;
     padding: 0 0 10px 0;
     font-size: 1.5rem;
 }
@@ -71,6 +80,7 @@ h2 {
 }
 
 .plano-premium > ul li {
+    font-family: 'Dosis', sans-serif;
     padding: 0 0 10px 0;
     font-size: 1.5rem;
 }
@@ -80,6 +90,7 @@ h2 {
 }
 
 .plano-diamond > ul li {
+    font-family: 'Dosis', sans-serif;
     padding: 0 0 10px 0;
     font-size: 1.5rem;
 }
